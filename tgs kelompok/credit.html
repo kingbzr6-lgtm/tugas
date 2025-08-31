@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credit & Payment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="credit-page">
+    <!-- Avatar Header -->
+    <header class="avatar-header">
+      <div class="avatar-left" onclick="window.location.href='avatar.html'">
+        <img src="img/avatar.jpg" alt="Avatar" class="avatar-img" />
+        <span class="avatar-name">Bang Messi</span>
+      </div>
+      <button class="cart-btn" onclick="window.location.href='checkout.html'">
+        🛒
+      </button>
+    </header>
+
+    <!-- Payment Header -->
+    <header class="credit-header">
+      <h6>Payment Methods</h6>
+    </header>
+
+    <!-- Payment List -->
+    <main class="credit-content">
+      <ul class="payment-list">
+        <li><a href="tyyax.html">TRANSFER BANK</a></li>
+        <li><a href="tyyax.html">OVO</a></li>
+        <li><a href="tyyax.html">DANA</a></li>
+        <li><a href="tyyax.html">FLIP</a></li>
+      </ul>
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+      <button class="nav-btn" data-link="menu.html">🏠</button>
+      <button class="nav-btn" data-link="search.html">🔍</button>
+
+      <!-- Avatar pakai IMG -->
+      <button class="nav-btn" data-link="avatar.html" id="avatar-link">
+        <img src="img/avatar.jpg" alt="Avatar" class="avatar-icon" />
+      </button>
+
+      <button class="nav-btn" data-link="credit.html">💳</button>
+    </nav>
+
+    <script src="app.js"></script>
+  </body>
+</html>
